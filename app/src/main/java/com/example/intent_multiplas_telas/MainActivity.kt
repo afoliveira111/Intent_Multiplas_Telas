@@ -14,6 +14,7 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+
         binding.buttonIr.setOnClickListener {
             //val i = Intent(this, ProfileActivity::class.java)
             //startActivity(i)
